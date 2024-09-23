@@ -11,6 +11,10 @@ info: rtl8188fu support will be add to rtl8xxxu module of Linux kernel. https://
 
 `git clone https://github.com/kelebek333/rtl8188fu`
 
+`sudo dkms add ./rtl8188fu (comando pegos no ask.ubuntu)`
+
+`sudo dkms build rtl8188fu/1.0 (comando pegos no ask.ubuntu)`
+
 `sudo dkms install ./rtl8188fu`
 
 `sudo cp ./rtl8188fu/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
